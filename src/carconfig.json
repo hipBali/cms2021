@@ -1,0 +1,346 @@
+{
+  "name": "mainForm",
+  "class": "Form",
+  "props": {
+    "Caption": "CMS2021 Car Configurator",
+    "Width": 770,
+    "BorderStyle": "bsDialog",
+    "AlphaBlendValue": 240,
+    "Height": 600,
+    "Position": "poScreenCenter",
+    "AlphaBlend": true
+  },
+  "items": [
+    {
+      "name": "TopPanel",
+      "items": [
+	    {
+          "name": "Label1",
+          "items": [],
+          "class": "Label",
+          "props": {
+            "Caption": "CMS Path",
+            "Top": 10,
+            "Left": 10
+          }
+        },
+        {
+          "name": "PathEdit",
+          "items": [],
+          "class": "DirectoryEdit",
+          "props": {
+            "Top": 6,
+            "Left": 90,
+            "ButtonWidth": 26,
+            "Width": 676,
+            "AutoSize": false,
+            "Flat": true,
+          }
+        }
+      ],
+      "class": "Panel",
+      "props": {
+        "Align": "alTop",
+        "BevelOuter": "bvLowered",
+        "Color": 15918295,
+		"Height": 40
+      }
+    },
+    {
+      "name": "Panel1",
+      "items": [
+        {
+          "name": "CarListBox",
+          "items": [],
+          "class": "ListBox",
+          "props": {
+            "Font": {
+              "Color": "clBlack",
+              "Style": "[fsBold]",
+              "Size": 10
+            },
+            "Align": "alClient",
+            "Color": "clInfoBk",
+            "Width": 200
+          }
+        }
+      ],
+      "class": "Panel",
+      "props": {
+        "Align": "alLeft",
+        "BevelOuter": "bvLowered",
+        "Color": 15918295,
+		"Width": 300
+      }
+    },
+    {
+      "name": "Splitter1",
+      "items": [],
+      "class": "Splitter",
+      "props": {
+        "Left": 300,
+        "Color": 12639424
+      }
+    },
+    
+	{
+      "name": "Panel2",
+	  "class": "Panel",
+      "props": {
+        "Caption": "",
+        "Color": -2147483620,
+        "BevelOuter": "bvLowered",
+        "Font": {
+          "Size": 10
+        },
+		"Width": 400,
+		"Height": 300,
+        "Align": "alClient"
+      },
+      "items": [
+		{
+		  "name": "InfoPanel",
+		  "class": "Panel",
+		  "props": {
+			"Caption": "",
+			"Color": -2147483620,
+			"BevelOuter": "bvLowered",
+			"Font": {
+			  "Size": 10
+			},
+			"Width": 400,
+			"Height": 100,
+			"Align": "alTop"
+		  },
+		  "items": [
+			{
+			  "name": "NameEdit",
+			  "items": [],
+			  "class": "Edit",
+			  "props": {
+				"Width": 280,
+				"Top": 6,
+				"Left": 110
+			  }
+			},
+			{
+			  "name": "SaveNameButton",
+			  "items": [],
+			  "class": "SpeedButton",
+			  "props": {
+				"Width": 65,
+				"Top": 8,
+				"Left": 390,
+				"Flat": true,
+				"Caption": "Rename",
+				"Font": {
+				  "Size": 8
+				}
+			  }
+			},
+			{
+			  "name": "Label2",
+			  "items": [],
+			  "class": "Label",
+			  "props": {
+				"Caption": "Car name",
+				"Top": 10,
+				"Left": 10
+			  }
+			},
+			{
+			  "name": "EngineEdit",
+			  "items": [],
+			  "class": "Edit",
+			  "props": {
+				"Width": 250,
+				"Top": 36,
+				"Left": 110,
+				"Text": "",
+				"Color": "clInfoBk",
+				"ReadOnly": true
+			  }
+			},
+			{
+			  "name": "Label12",
+			  "items": [],
+			  "class": "Label",
+			  "props": {
+				"Caption": "Default Engine",
+				"Top": 40,
+				"Left": 10
+			  }
+			},
+			{
+			  "name": "YearEdit",
+			  "items": [],
+			  "class": "Edit",
+			  "props": {
+				"Width": 40,
+				"Top": 36,
+				"Left": 414,
+				"Text": "",
+				"Color": "clInfoBk",
+				"ReadOnly": true
+			  }
+			},
+			{
+			  "name": "Label13",
+			  "items": [],
+			  "class": "Label",
+			  "props": {
+				"Caption": "Year",
+				"Top": 40,
+				"Left": 380
+			  }
+			},
+			{
+			  "name": "Label14",
+			  "items": [],
+			  "class": "Label",
+			  "props": {
+				"Caption": "Places",
+				"Top": 70,
+				"Left": 10
+			  }
+			},
+			{"items":[],"name":"AuctionCB","props":{"AllowGrayed":true,"Width":169,"Top":70,"Caption":"Auction","Checked":false,"Left":110},"class":"CheckBox"},
+			{"items":[],"name":"BarnCB","props":{"Top":70,"Caption":"Barn","Left":190},"class":"CheckBox"},
+			{"items":[],"name":"JunkyardCB","props":{"Top":70,"Caption":"Junkyard","Left":250},"class":"CheckBox"},
+			{"items":[],"name":"SalonCB","props":{"Top":70,"Caption":"Salon","Left":340},"class":"CheckBox"}
+		  ]
+		},
+		{
+		  "name": "SwapPanel",
+		  "class": "Panel",
+		  "props": {
+			"Caption": "",
+			"Color": -2147483620,
+			"BevelOuter": "bvLowered",
+			"Font": {
+			  "Size": 10
+			},
+			"Width": 400,
+			"Height": 300,
+			"Align": "alClient"
+		  },
+		  "items": [
+			{
+			  "name": "SwapListBox",
+			  "items": [],
+			  "class": "ListBox",
+			  "props": {
+				"Top": 30,
+				"Left": 10,
+				"Width": 200,
+				"Height": 380
+			  }
+			},
+			{
+			  "name": "Label3",
+			  "items": [],
+			  "class": "Label",
+			  "props": {
+				"Caption": "Swap engines",
+				"Top": 10,
+				"Left": 10
+			  }
+			},
+			{
+			  "name": "Label4",
+			  "items": [],
+			  "class": "Label",
+			  "props": {
+				"Caption": "Engine category",
+				"Top": 10,
+				"Left": 220
+			  }
+			},
+			{
+			  "name": "CategoryCombo",
+			  "items": [],
+			  "class": "ComboBox",
+			  "props": {
+				"Width": 235,
+				"Top": 30,
+				"Left": 220,
+				"ReadOnly": true
+			  }
+			},
+			{
+			  "name": "Label5",
+			  "items": [],
+			  "class": "Label",
+			  "props": {
+				"Caption": "Engine options",
+				"Top": 60,
+				"Left": 220
+			  }
+			},
+			{
+			  "name": "EngineOptionsList",
+			  "items": [],
+			  "class": "ListBox",
+			  "props": {
+				"Top": 80,
+				"Left": 220,
+				"Height":330,
+				"Width": 230
+			  }
+			},
+			{
+			  "name": "ButtonPanel",
+			  "class": "Panel",
+			  "props": {
+				"Caption": "",
+				"Color": -2147483620,
+				"BevelOuter": "bvLowered",
+				"Font": {
+				  "Size": 10
+				},
+				"Width": 400,
+				"Height": 40,
+				"Align": "alBottom"
+			  },
+			  "items": [
+				{
+				  "name": "RemoveButton",
+				  "items": [],
+				  "class": "Button",
+				  "props": {
+					"Caption": "Remove engine",
+					"Top":8,
+					"Left": 50,
+					"Width": 120
+				  }
+				},
+				{
+				  "name": "AddButton",
+				  "items": [],
+				  "class": "Button",
+				  "props": {
+					"Caption": "Add engine",
+					"Top": 8,
+					"Left": 220,
+					"Width": 90
+				  }
+				},
+				{
+				  "name": "SaveButton",
+				  "items": [],
+				  "class": "Button",
+				  "props": {
+					"Caption": "Save",
+					"Top": 8,
+					"Left": 390,
+					"Width": 60
+				  }
+				}
+			  ]
+			}
+		  ]
+		}
+      ]
+    }
+  ]
+}

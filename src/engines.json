@@ -1,0 +1,144 @@
+{
+  "Electric Motors (0 Cylinders)": {
+    "engine_el_rd0": "Electric Motor RD0",
+    "engine_el_vw0": "Electric Motor VW0",
+    "engine_el_r240": "Electric Motor R240"
+  },
+  "Rotary Engines": {
+    "engine_rot_old": "Rotary Engine (Old Generation)",
+    "engine_rot_new": "Rotary Engine (New Generation)"
+  },
+  "Inline 3 (I3)": {
+    "engine_i3": "Inline 3 Engine",
+    "engine_i3_turbo": "Inline 3 Turbocharged Engine"
+  },
+  "Inline 4 (I4 / R4)": {
+    "engine_i4": "Inline 4 Engine",
+    "engine_i4_4x4": "Inline 4 Engine 4x4",
+    "engine_r4": "Inline 4 Engine",
+    "engine_r4_old": "Inline 4 Engine (Old)",
+    "engine_r4_2": "Inline 4 Engine Variant 2",
+    "engine_r4_3": "Inline 4 Engine Variant 3",
+    "engine_r4_4": "Inline 4 Engine Variant 4",
+    "engine_r4_sohc": "Inline 4 SOHC",
+    "engine_r4_turbo": "Inline 4 Turbocharged",
+    "engine_r4_sohc_4x4": "Inline 4 SOHC 4x4",
+    "engine_r4_d420": "Inline 4 Diesel D420",
+    "engine_r4_204pt": "Inline 4 204PT",
+    "engine_r4_sr20": "Inline 4 SR20",
+    "engine_r4_sohc_wzdluzny": "Inline 4 SOHC Longitudinal",
+    "engine_r4_m31": "Inline 4 M31",
+    "engine_r4_rwd": "Inline 4 Engine RWD"
+  },
+  "Inline 6 (I6 / R6)": {
+    "engine_i6_old": "Inline 6 Engine (Old)",
+    "engine_r6_sohc": "Inline 6 SOHC",
+    "engine_r6_m130": "Inline 6 M130",
+    "engine_r6_tm": "Inline 6 TM",
+    "engine_r6_m50": "Inline 6 M50",
+    "engine_r6_xk": "Inline 6 XK",
+    "engine_r6_240z": "Inline 6 240Z",
+    "engine_r6_2jz": "Inline 6 2JZ",
+    "engine_r6_2jz_t": "Inline 6 2JZ Turbo",
+    "engine_r6_dohc_wzdluzny": "Inline 6 DOHC Longitudinal"
+  },
+  "Boxer Engines": {
+    "engine_b61_porsche": "Boxer 6 Engine Porsche",
+    "engine_b62_porsche": "Boxer 6 Engine Porsche (Variant)",
+    "engine_b62_2_porsche": "Boxer 6 Engine Porsche (Variant 2)"
+  },
+  "V6 Engines": {
+    "engine_v6_30": "V6 3.0L",
+    "engine_v6_30_rwd": "V6 3.0L RWD",
+    "engine_v6_35tt": "V6 3.5L Twin Turbo",
+    "engine_v6_ajd": "V6 AJD",
+    "engine_v6_37n": "V6 3.7L",
+    "engine_v6_37n_2": "V6 3.7L Variant 2",
+    "engine_v6_38n": "V6 3.8L"
+  },
+  "Generic V8 Engines": {
+    "engine_v8": "V8 OHV Engine",
+    "engine_v8_mod": "V8 OHV Engine (Modern)",
+    "engine_v8_scharged": "V8 OHV Supercharged"
+  },
+  "Mid-Engine V8": {
+    "engine_v8_mid_scharged": "V8 OHV Mid-Engine Supercharged",
+    "engine_v8_mid_turbo": "V8 OHV Mid-Engine Turbo"
+  },
+  "GM LS V8 Family": {
+    "engine_v8_ls3": "V8 OHV LS3",
+    "engine_v8_ls3_scharged": "V8 OHV LS3 Supercharged",
+    "engine_v8_ls3_mid": "V8 OHV LS3 Mid-Engine",
+    "engine_v8_ls3_mid_scharged": "V8 OHV LS3 Mid-Engine Supercharged",
+    "engine_tk_v8_ls3_4x4": "V8 OHV LS3 4x4",
+    "engine_tk_v8_ls3_scharged_4x4": "V8 OHV LS3 Supercharged 4x4"
+  },
+  "Ford V8 Engines": {
+    "engine_v8_coyote": "V8 DOHC Coyote",
+    "engine_tk_v8_coyote_4x4": "V8 DOHC Coyote 4x4",
+    "engine_v8_289": "V8 OHV 289",
+    "engine_v8_289_racing": "V8 OHV 289 Racing",
+    "engine_v8_429": "V8 OHV 429",
+    "engine_v8_f350": "V8 OHV F-350",
+    "engine_v8_f350_4x4": "V8 OHV F-350 4x4"
+  },
+  "Chrysler / Dodge V8 HEMI Family": {
+    "engine_v8_hemi": "V8 OHV HEMI",
+    "engine_v8_61hemi": "V8 OHV 426 HEMI (1961)",
+    "engine_v8_62hemi": "V8 OHV 426 HEMI (1962)",
+    "engine_v8_hemiShaker": "V8 OHV HEMI Shaker",
+    "engine_v8_360": "V8 OHV 360",
+    "engine_v8_magnum": "V8 OHV Magnum",
+    "engine_v8_sixpack": "V8 OHV Six Pack",
+    "engine_v8_345_4x4": "V8 OHV 345 4x4",
+    "engine_v8_392hemi": "V8 OHV 392 HEMI"
+  },
+  "Classic V8 Engines": {
+    "engine_v8_stary": "V8 OHV Oldschool",
+    "engine_v8_stary_2carb": "V8 OHV Oldschool Twin Carb",
+    "engine_v8_stary_scharged": "V8 OHV Oldschool Supercharged",
+    "engine_v8_409": "V8 OHV 409",
+    "engine_v8zz": "V8 OHV ZZ"
+  },
+  "European & Luxury V8": {
+    "engine_v8_aj133": "V8 DOHC AJ133",
+    "engine_v8_aj133_lr": "V8 DOHC AJ133 (Land Rover)",
+    "engine_v8_m119": "V8 DOHC M119",
+    "engine_v8_sec": "V8 DOHC SEC",
+    "engine_v8_m159": "V8 DOHC M159"
+  },
+  "Modern AMG V8": {
+    "engine_v8_m177": "V8 DOHC M177",
+    "engine_v8_m177_DBX": "V8 DOHC M177 (DBX)"
+  },
+  "Off-Road & 4x4 V8": {
+    "engine_v8_4x4": "V8 OHV 4x4",
+    "engine_tk_v8_scharged_4x4": "V8 OHV Supercharged 4x4"
+  },
+  "V10 Engines": {
+    "engine_v10": "V10 Engine",
+    "engine_v10_2": "V10 Engine Variant 2",
+    "engine_v10_4": "V10 Engine Variant 4"
+  },
+  "V12 Engines": {
+    "engine_v12": "V12 Engine",
+    "engine_v12_2": "V12 Engine Variant 2",
+    "engine_v12_3": "V12 Engine Variant 3",
+    "engine_v12_am11": "V12 AM11",
+    "engine_v12_xjs": "V12 XJS",
+    "engine_v12_huayra": "V12 Huayra",
+    "engine_v12_zonda": "V12 Zonda"
+  },
+  "Chrysler / Dodge V6": {
+    "engine_v6_pentastar": "V6 Pentastar"
+  },
+  "BMW Inline 6 (M / S)": {
+    "engine_r6_s55": "Inline 6 S55",
+    "engine_r6_m30": "Inline 6 M30",
+    "engine_r6_s54": "Inline 6 S54",
+    "engine_r6_m88": "Inline 6 M88"
+  },
+  "Classic & Utility Inline 4": {
+    "engine_i4_l134": "Inline 4 L134"
+  }
+}
