@@ -27,3 +27,10 @@ Run with Lua 5.4:
 
 ```bash
 lua54 -e "require 'lar' require 'cms.main'" [cms=2018]
+```
+
+## Full release package download
+
+[CMSConfig]([https://sourceforge.net/projects/vclua/files/](https://sourceforge.net/projects/vclua/files/projects/CMS20xx/CMSConfig.zip/download)) 
+
+
