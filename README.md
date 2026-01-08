@@ -4,6 +4,8 @@ A small GUI tool written in **Lua** for editing car configuration files of *Car 
 
 The application allows quick editing of engine swap options and spawn locations without manual text file editing.
 
+<img src="cc.png" alt="CMSConfig" width="50%" height="50%">
+
 ---
 
 ## Features
@@ -32,6 +34,7 @@ lua54 -e "require 'lar' require 'cms.main'" [cms=2018]
 ## Full release package download from SourceForge
 
 [CMSConfig](https://sourceforge.net/projects/vclua/files/projects/CMS20xx/CMSConfig.zip/download) 
+
 
 
 
